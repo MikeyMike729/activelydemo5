@@ -1,0 +1,50 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Actively
+  </ion-title>
+</ion-navbar>
+
+<!--<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="openNavDetailsPage(item)">
+      <ion-icon [name]="'logo-' + item.icon" [ngStyle]="{'color': item.color}" item-left></ion-icon>
+      {{ item.title }}
+    </button>
+  </ion-list>
+</ion-content>-->
+
+<ion-content padding>
+  <ion-grid padding>
+    <ion-row class="flex-container">
+      <ion-col class="flex-item"> 
+        <button block primary (click)="openActivitiesPage(item)">Hungry</button>
+      </ion-col>
+
+      <ion-col class="flex-item">
+        <button block secondary (click)="openActivitiesPage(item)">Fun</button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="flex-container">
+      <ion-col class="flex-item">
+        <button light (click)="openActivitiesPage(item)">Chill</button>
+      </ion-col>
+
+      <ion-col class="flex-item">
+        <button danger (click)="openActivitiesPage(item)">Adrenaline</button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="flex-container">
+      <ion-col class="flex-item">
+        <button energized (click)="openActivitiesPage(item)">Party</button>
+      </ion-col>
+
+      <ion-col class="flex-item">
+        <button royal (click)="openActivitiesPage(item)">Surprise me</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+
+</ion-content>

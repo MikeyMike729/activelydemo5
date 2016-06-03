@@ -1,0 +1,21 @@
+.moods {
+
+}
+
+.button{
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.flex-container {
+    height: 25vh;
+    width: 50vh;
+    margin: 0 -15px;
+    align-self: center;
+}
+
+.flex-item {
+    height: 100%; /* = 100% - 2*10% padding */
+    width: 100%; /* = 100% - 2*5% padding */
+}
