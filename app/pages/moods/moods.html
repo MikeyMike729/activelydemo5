@@ -17,31 +17,28 @@
   <ion-grid padding>
     <ion-row class="flex-container">
       <ion-col class="flex-item"> 
-        <button block primary (click)="openActivitiesPage(item)">Hungry</button>
+        <button block danger (click)="openActivitiesPage(item)">Hungry</button>
       </ion-col>
-
       <ion-col class="flex-item">
-        <button block secondary (click)="openActivitiesPage(item)">Fun</button>
-      </ion-col>
-    </ion-row>
-
-    <ion-row class="flex-container">
-      <ion-col class="flex-item">
-        <button light (click)="openActivitiesPage(item)">Chill</button>
-      </ion-col>
-
-      <ion-col class="flex-item">
-        <button danger (click)="openActivitiesPage(item)">Adrenaline</button>
+        <button block danger (click)="openActivitiesPage(item)">Fun</button>
       </ion-col>
     </ion-row>
 
     <ion-row class="flex-container">
       <ion-col class="flex-item">
-        <button energized (click)="openActivitiesPage(item)">Party</button>
+        <button block light (click)="openActivitiesPage(item)">Chill</button>
       </ion-col>
-
       <ion-col class="flex-item">
-        <button royal (click)="openActivitiesPage(item)">Surprise me</button>
+        <button block light (click)="openActivitiesPage(item)">Adrenaline</button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="flex-container">
+      <ion-col class="flex-item">
+        <button block danger (click)="openActivitiesPage(item)">Party</button>
+      </ion-col>
+      <ion-col class="flex-item">
+        <button block danger (click)="openActivitiesPage(item)">Surprise me</button>
       </ion-col>
     </ion-row>
   </ion-grid>

@@ -1,4 +1,6 @@
-import {Page, NavController} from 'ionic-angular';
+import {Component} from 'angular2/core';
+import {NavController} from 'ionic-angular';
+import {ActivitiesPage} from '../../pages/activities/activities';
 
 /*
   Generated class for the MoodsPage page.
@@ -6,17 +8,8 @@ import {Page, NavController} from 'ionic-angular';
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
-@Page({
-  templateUrl: './build/pages/activities/activities.html',
-})
-class ActivitiesPage {
-  item;
 
-  constructor() {
-  }
-}
-
-@Page({
+@Component({
   templateUrl: 'build/pages/moods/moods.html',
 })
 export class MoodsPage {
